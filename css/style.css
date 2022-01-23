@@ -1,0 +1,30 @@
+/* Las variables van siempre arriba del todo*/
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Corinthia&family=Merriweather:wght@300&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Corinthia&family=Merriweather:wght@300&family=Outfit&family=Spectral&display=swap");
+/* Todo archivo que no sea el main, se tiene que llamar 
+con _ adelante y la extension .scss*/
+header {
+  background-color: wheat;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px; }
+
+main {
+  background-color: wheat;
+  color: black;
+  justify-content: center;
+  font-family: "Spectral", serif;
+  font-size: 50px; }
+
+footer {
+  background-color: wheat; }
+  footer a {
+    color: black;
+    font-size: 15px; }
+
+section {
+  background-color: wheat; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
